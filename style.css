@@ -33,6 +33,7 @@ input,select{vertical-align:middle}
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: tomato;
 
 }
 
