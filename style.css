@@ -19,14 +19,24 @@ input,select{vertical-align:middle}
 
 
 .jumbotron {
-	// height: 50vh;
+
 	width: 100%;
-	background-image: url('../img/justice.jpg');
+	background-image: url('img/justice.jpg');
 	background-size: cover;
 	height: 600px;
-	background
+	
 
 }
+
+
+.hero-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
 .issues-container {
 	max-width: 80%;
 	margin: 0 auto;
@@ -34,9 +44,30 @@ input,select{vertical-align:middle}
 
 }
 .issue {
-	background-color: tomato;
+	background-color: #e5d6b0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 200px;
 	width: 200px;
+	margin: 10px;
 
+}
+.issue a {
+	height: 100%;
+	width: 100%;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
+}
+.issue:hover{ 
+	background-color: tomato;
+	text-decoration: none;
+}
+.issue-type {
+	font-size: 30px;
+
+	
 }
