@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+trialsPath = "#{Rails.root}/data.json"
+trials = JSON.parse(File.read(trialsPath))
+
+trials.each do |trial|
+	Trial.create!(trial['data'])
+end
