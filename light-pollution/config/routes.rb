@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   resources :attorneys do
-  	resources :cases
+  	resources :trials
   end
 
   root 'attorneys#index' 

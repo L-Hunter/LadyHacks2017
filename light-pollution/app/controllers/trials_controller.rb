@@ -1,4 +1,4 @@
-class CasesController < ApplicationController
+class TrialsController < ApplicationController
 	before_action :set_case, only: [:show, :edit, :update, :destroy]
 
   def index

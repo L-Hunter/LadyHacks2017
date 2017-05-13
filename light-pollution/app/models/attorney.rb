@@ -1,5 +1,5 @@
 class Attorney < ApplicationRecord
-  has_many :cases
+  has_many :trials
 
   validates :name, :status, :party, :district,  presence: true
 
