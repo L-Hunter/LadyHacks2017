@@ -34,6 +34,6 @@ class AttorneysController < ApplicationController
   end
 
   def attorney_params
-    params.require(:attorney).permit(:name, :status, :party, :district)
+    params.require(:attorney).permit(:name, :status, :district)
   end
 end
