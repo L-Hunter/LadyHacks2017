@@ -34,6 +34,6 @@ class TrialsController < ApplicationController
   end
 
   def trial_params
-    params.require(:trial).permit(:name, :date, :type, :judgement, :ruling, :opinion_link)
+    params.require(:trial).permit(:name, :date, :type, :judgment, :ruling, :opinion_link)
   end
 end
